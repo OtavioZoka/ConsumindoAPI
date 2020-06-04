@@ -1,0 +1,72 @@
+.backgroud-tv {
+    background-image: url(TV.png);   
+    height: 427px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 100%;
+    left: 0%;
+}
+body{
+    background-color: black;
+}
+#carouselExampleSlidesOnly{
+    height: 51%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    display: flex;
+    width: 25%;
+    left: 11%;
+    top: 35%;
+}
+.telas-carousel {
+  background-position: center;
+  width: 90%;
+ font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border:black;
+  margin: 0.5em;
+  padding:0.5em;
+  display: flex;
+}
+.posicaoimagemnick{
+   width: 3px;
+  height: 3px;
+  position: absolute; 
+  background-position: center; 
+  top:2100px;  
+}
+.imagemnick{
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    background-position: center;
+}
+
+.fila1{          
+    height: 100%;
+    background-position: left;
+    background-size:contain;
+    position: absolute;
+    width: 25.5%;
+    background-color: blanchedalmond;
+}
+.bordas{
+        
+    
+}
+.cartoes{
+    text-align: center;
+}
+/*#fila2{    background-image: url(TV.png);   
+    height: 427px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 100%;
+    left: 0%;}
